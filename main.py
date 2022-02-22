@@ -1,6 +1,6 @@
 import discord
 import os 
-#from keep_online import keep_online
+from keep_online import keep_online
 
 bot_token = os.environ['TOKEN']
 
@@ -22,4 +22,5 @@ async def on_message(message):
   if message.content.startswith("."):
     await message.delete()
 
+keep_online()
 client.run(bot_token)
