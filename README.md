@@ -14,7 +14,7 @@ they were sent in, along with user commands to Hydra that begin with the '.' cha
 
 #Hydra's Manager only checks a message's author, and if the message begins with the '.' prefix, IT DOES NOT READ ANY OTHER CONTENTS OF THE MESSAGE.
 
-This code is meant to be run on the [replit](replit.com) online IDE, and if you wish to repurpose/reuse this project:
+This code is meant to be run on the [replit](https://replit.com/) online IDE, and if you wish to repurpose/reuse this project:
 1. Create a new repl on replit
 2. Copy the contents of main and keep_online files respectively.
 3. Create a bot on the [Discord Developer Page](https://discord.com/developers/applications)
@@ -24,7 +24,7 @@ This code is meant to be run on the [replit](replit.com) online IDE, and if you 
 ###Note:
 Replit only hosts running web servers for upto an hour after the latest recieved request, so to ensure uptime/availability,
 this project makes use of the most basic web server using flask (in the keep_online file), and then a request is submitted 
-periodically using a 3rd Party Service to ensure the bot stays online (in this case, I have made use of the [UpTime Robot](uptimerobot.com) service).
+periodically using a 3rd Party Service to ensure the bot stays online (in this case, I have made use of the [UpTime Robot](https://uptimerobot.com) service).
 
 For a guide on the basics of setting up a discord bot, setting up the repl for hosting the bot, as well as ensuring its availability using UpTime Robot,
 feel free to refer to the material I used, [this guide](https://www.youtube.com/watch?v=SPTfmiYiuok) by [FreeCodeCamp.org](https://www.freecodecamp.org/)
