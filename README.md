@@ -21,7 +21,7 @@ This code is meant to be run on the [replit](https://replit.com/) online IDE, an
 4. Copy the Bot token from the Dev page and add it as an environment variable to your replit
 5. Run the replit
 
-###Note:
+# Note:
 Replit only hosts running web servers for upto an hour after the latest recieved request, so to ensure uptime/availability,
 this project makes use of the most basic web server using flask (in the keep_online file), and then a request is submitted 
 periodically using a 3rd Party Service to ensure the bot stays online (in this case, I have made use of the [UpTime Robot](https://uptimerobot.com) service).
