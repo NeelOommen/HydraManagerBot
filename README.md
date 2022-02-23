@@ -1,8 +1,6 @@
 # HydraManagerBot
 ## A discord bot meant to 'clean-up' messages sent by the popular Hydra Discord Bot
 
-Link to add to your own server: https://discord.com/api/oauth2/authorize?client_id=945576655882178600&permissions=274878117968&scope=bot
-
 
 Hydra's Manager is a bot written in python to interact with Discord's API, to 'manage' messages sent by the Hydra Discord Bot.
 Hydra is a popular bot that enables server members to play music in their server's Voice channels. In doing so, it also sends 
